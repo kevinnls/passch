@@ -1,13 +1,120 @@
 <html>
+
 <head>
-<title>
-Temp
-</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+
+    <style>
+        a,
+        a:visited {
+            color: darkslategray;
+            text-decoration: none
+        }
+
+        a:hover {
+            text-shadow: 2px 2px 10px gray;
+        }
+
+        .material-icons-round {
+            font-size: 55px;
+
+        }
+
+        img:hover {
+            text-shadow: 2px 2px 10px gray;
+        }
+
+        img.icon {
+            border: none;
+            padding: none;
+            margin: none;
+        }
+
+        p,
+        .names,
+        p.tiny-text {
+            font-size: 12px;
+        }
+    </style>
+    <title>
+        How to change your password
+    </title>
+</head>
+
 <body>
-<ol>
-<li><a href="passch-desk.html">Desktop</a></li>
-<li><a href="passch-andr.html">Android</a></li>
-<li><a href="passch-ipho.html">iPhone</a></li>
-</ol>
-<body>
+    <h2>How to change your password</h2>
+    <div id="content">
+
+        <div style="
+        display: grid; 
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto 5px auto auto;
+        grid-row-gap: 20px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        ">
+            <div>
+                <a href="passch-andr.html">
+                    <div>
+                        <i class="material-icons-round">android</i>
+                        <br>
+                        <p>on Android</p>
+
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="passch-ipho.html">
+                    <div>
+                        <!-- <i class="material-icons-round">phone_iphone</i> -->
+                        <img height="50px" class="icon" src="assets/apple-logo.png">
+
+                        <p>on iOS</p>
+                    </div>
+                </a>
+            </div>
+            <div style="grid-column: 1/ span 2;">
+                <a href="passch-desk.html">
+                    <div>
+                        <i class="material-icons-round">computer</i>
+
+                        <p>on PC</p>
+                    </div>
+                </a>
+            </div>
+            <div style="grid-column: 1/span 2; width: 98%; height: 5px; background-color: black;"></div>
+            <div style="grid-column: 1/span 2;">
+                <i class="material-icons-round">device_unknown</i>
+                <div
+                    style="font-size: 12px;margin:auto; align-items: center; display: grid; grid-row-gap: 2px; grid-template-columns: max-content;">
+                    <p>On something else?<br><span style="font-size: 15;">Contact:<br>Your Department Rep</span></p>
+                </div>
+            </div>
+            <div>
+                <p class="tiny-text">
+                    <a target="_blank"
+                        href="mailto:1801711010069@gmail.com?subject=chpass%3A%20query&body=DO%20NOT%20CHANGE%20THE%20SUBJECT%0ATYPE%20YOUR%20MESSAGE%20BELOW%20THE%20LINE%0A----------------------------------------------------------------------------------">
+                        <i class="material-icons-round" style="font-size: 15;">contact_support</i>
+                        <br>Kevin,
+                        <br>the jobless guy who made the guide
+                    </a>
+                </p>
+
+            </div>
+            <div>
+                <p class="tiny-text">
+                    <a target="_blank" href="https://github.com/kevinnls/passch">
+                        <img src="assets/gh.png" class="icon" height="15px">
+                        All contributions are invited
+                        <br>Visit the repo on GitHub
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <body>
+
 </html>

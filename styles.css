@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
+  display: block;
+  max-width: 100%;
+  max-height: 350px;
+  border: 0.01px dotted black;
+}
+
+li {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 25px;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+#content {
+  color: black;
+  width: 100%;
+  margin: auto;
+  padding: 15px;
+  background-color: white;
+}
+
+#navbar {
+  color: white;
+  width: 100%;
+  height: min-content;
+  margin: auto;
+  padding: 15px;
+  background-color: grey;
+}
+
+.nav {
+  color: white;
+  font-size: 38px;
+}
+
+@media only screen and (min-width: 768px) {
+  #navbar {
+    width: 60%;
+  }
+  #content {
+    width: 60%;
+  }
+  .nav {
+    font-size: 32px;
+  }
+  img {
+    max-width: 700px;
+    max-height: 600px;
+  }
+}
