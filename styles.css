@@ -45,6 +45,7 @@ h3 {
 .nav {
   color: white;
   font-size: 38px;
+  padding: 0px 7px 0px 7px;
 }
 
 @media only screen and (min-width: 768px) {
