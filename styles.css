@@ -29,7 +29,7 @@ h3 {
   color: black;
   width: 100%;
   margin: auto;
-  padding: 15px;
+  padding: 15px 0px 15px 0px;
   background-color: white;
 }
 
@@ -38,7 +38,7 @@ h3 {
   width: 100%;
   height: min-content;
   margin: auto;
-  padding: 15px;
+  padding: 15px 0px 15px 0px;
   background-color: grey;
 }
 
@@ -58,7 +58,12 @@ h3 {
     font-size: 32px;
   }
   img {
-    max-width: 700px;
+    /* max-width: 700px; */
     max-height: 600px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  img {
+    max-width: 700px;
   }
 }
