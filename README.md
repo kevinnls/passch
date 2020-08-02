@@ -20,7 +20,10 @@ be it the
 
 ### contribute as a githubber
 
-do this:
+if you have a suggestion:
+1. open an issue
+
+to contribute changes, do this:
 1. fork the project
 2. make your changes on the fork
 3. and create a pull request back
