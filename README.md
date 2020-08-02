@@ -1,6 +1,31 @@
-# How to change your Google password
+# how to change your Google password
 
-- [on your desktop or laptop](passch-desk)
-- [on an android phone](passch-andr)
-- [on an iPhone](passch-ipho)
-- if anything else ask [Alan](https://wa.me/+919940150411) or [Kevin](https://wa.me/+919677013461)
+really small website writted in pure HTML+CSS
+as a guide for the students of MCC to change
+the password on their college-provided GSuite
+accounts
+
+it was made in a rush. hopefully it's helpful.
+visit the hosted page [here](https://kevinnls.github.io/passch/)
+
+## contributing
+
+if you want to contribute in anyway, you are
+welcome to do so.
+
+be it the
+
+- addition of a better screenshot/video clipping
+- clarification of a step
+- improving general design, ui/ux
+- pretty much anything tbh
+
+### contribute as a githubber
+
+just fork the project, make your changes on the fork
+and create a pull request back
+refer to this [guide](https://github.com/firstcontributions/first-contributions/blob/master/README.md) if it's your first time
+
+### contribute as a layperson
+
+get in touch with via [mail](mailto:1801711010069@gmail.com?subject=chpass%3A%20contrib&body=DO%20NOT%20CHANGE%20THE%20SUBJECT%0ATYPE%20YOUR%20MESSAGE%20BELOW%20THE%20LINE%0A_________)
