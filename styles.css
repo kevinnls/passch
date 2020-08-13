@@ -29,8 +29,10 @@ h3 {
   color: black;
   width: 100%;
   margin: auto;
-  padding: 15px 0px 15px 0px;
+  padding: 15px 7px 15px 7px;
   background-color: white;
+  border-radius: 30px;
+  box-sizing: border-box;
 }
 
 #navbar {
@@ -40,12 +42,14 @@ h3 {
   margin: auto;
   padding: 15px 0px 15px 0px;
   background-color: grey;
+  border-radius: 30px;
+  box-sizing: border-box;
 }
 
 .nav {
   color: white;
   font-size: 38px;
-  padding: 0px 7px 0px 7px;
+  padding: 0px 10px 0px 10px;
 }
 
 @media only screen and (min-width: 768px) {
